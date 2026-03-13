@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import './CreateProfile.css'
 
 export default function CreateProfile() {
   return (
@@ -30,7 +30,7 @@ export default function CreateProfile() {
               <label className="form-label">Full Name</label>
               <input
                 className="form-input neo-border neo-shadow-sm"
-                placeholder="Enter your name"
+                placeholder="Enter your full name"
                 type="text"
               />
             </div>
@@ -50,7 +50,7 @@ export default function CreateProfile() {
               <label className="form-label">College Email ID</label>
               <input
                 className="form-input neo-border neo-shadow-sm"
-                placeholder="yourname@college.edu"
+                placeholder="yourname@sigce.edu.in"
                 type="email"
               />
             </div>
